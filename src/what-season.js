@@ -6,7 +6,6 @@ module.exports = function getSeason(date) {
   }
   if(Object.prototype.toString.call(date) == "[object Date]") {
     let month = date.getMonth();
-    console.log("Месяц " + month);
     if(month < 2 || month > 10) {
       return 'winter';
     } else if(month >= 2 && month <= 4) {
