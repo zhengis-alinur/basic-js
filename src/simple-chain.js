@@ -28,7 +28,6 @@ const chainMaker = {
   finishChain() {
     let result = this.arr.join("~~");
     this.arr = [];
-    console.log(result);
     return result;
   }
 };
